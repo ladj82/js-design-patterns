@@ -24,7 +24,7 @@ var fooSingletonModule = (function() {
 	return publicObject;
 })();
 
-var singletonTest1 = fooSingletonModule.getInstance(1, 2;
+var singletonTest1 = fooSingletonModule.getInstance(1, 2);
 var singletonTest2 = fooSingletonModule.getInstance(3, 4);
 var singletonTest3 = fooSingletonModule.getInstance(5, 6);
 
